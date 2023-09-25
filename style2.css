@@ -1,0 +1,92 @@
+/* style2.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7E57C2; /* Purple background color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center the container horizontally */
+    align-items: center; /* Center the container vertically */
+    min-height: 100vh; /* Ensure full viewport height */
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #512DA8; /* Darker purple color for the title */
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#task {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 2px solid #673AB7; /* Purple border color */
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+#addTask {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #673AB7; /* Purple button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#addTask:hover {
+    background-color: #512DA8; /* Darker purple button color on hover */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border: 2px solid #9575CD; /* Lighter purple border color */
+    border-radius: 5px;
+    margin-bottom: 12px;
+    background-color: #fff;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+li:hover {
+    background-color: #F3E5F5; /* Lighter purple background color on hover */
+}
+
+li button {
+    background-color: #D32F2F; /* Red button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+li button:hover {
+    background-color: #B71C1C; /* Darker red button color on hover */
+}
+
